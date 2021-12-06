@@ -13,10 +13,7 @@ func main() {
 	var result string = integerToString1(sum)
 	fmt.Println(result)
 }
-/*func addStrings(num1 string, num2 string) string {
-	var first uint = uint(stringToInteger1(num1))
-	var second uint = uint(stringToInteger1(num2))
-	var sum uint = first + second
+/*
 	var result string = integerToString(sum)
 	return result
 }
