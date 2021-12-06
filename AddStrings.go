@@ -12,6 +12,8 @@ func main() {
 	var result string = integerToString1(sum)
 	fmt.Println(result)
 }
+
+
 func stringToInteger1(s string) int {
 	length := len(s)
 	//a := []int{}
