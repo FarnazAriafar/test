@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"strconv"
 )
-
 func main() {
 	num1, num2 := "11", "1234"
 	var first uint = uint(stringToInteger1(num1))
@@ -13,14 +12,6 @@ func main() {
 	var result string = integerToString1(sum)
 	fmt.Println(result)
 }
-/*func addStrings(num1 string, num2 string) string {
-	var first uint = uint(stringToInteger1(num1))
-	var second uint = uint(stringToInteger1(num2))
-	var sum uint = first + second
-	var result string = integerToString(sum)
-	return result
-}
-*/
 func stringToInteger1(s string) int {
 	length := len(s)
 	//a := []int{}
